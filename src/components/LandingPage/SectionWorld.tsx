@@ -5,13 +5,12 @@ import H2 from "../CommonUI/H2";
 
 export default function SectionWorld() {
   return (
-    <div className="relative">
+    <div className="relative min-h-[620px]">
       <Image
         src="/assets/landing/bg-world.jpg"
-        width={1512}
-        height={709}
+        fill
         alt="MedWorld background"
-        className="w-full"
+        className="object-cover w-full"
       />
       <Container className="py-[218px] absolute inset-0 px-[40px] lg:px-[122px]">
         <div className="max-w-[510px] w-full bg-cover bg-no-repeat">

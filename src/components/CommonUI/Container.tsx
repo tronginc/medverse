@@ -6,5 +6,5 @@ type Props = {
 };
 
 export default function Container({ children, className }: Props) {
-  return <div className={clsx("w-[1368px] mx-auto", className)}>{children}</div>;
+  return <div className={clsx("w-full max-w-[1368px] mx-auto", className)}>{children}</div>;
 }

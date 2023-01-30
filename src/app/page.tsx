@@ -3,7 +3,7 @@ import SectionWorld from "@/components/LandingPage/SectionWorld";
 import SectionMap from "@/components/LandingPage/SectionMap";
 import SectionMarketplace from "@/components/LandingPage/SectionMarketplace";
 import SectionSlider from "@/components/LandingPage/SectionBlog";
-import SectionPartner from "@/components/LandingPage/SectionPartner";
+import SectionExchange from "@/components/LandingPage/SectionExchange";
 import SectionEdit from "@/components/LandingPage/SectionEdit";
 
 export default function Home() {
@@ -15,7 +15,7 @@ export default function Home() {
       <SectionMarketplace />
       <SectionEdit />
       <SectionSlider />
-      <SectionPartner />
+      <SectionExchange />
     </>
   );
 }
