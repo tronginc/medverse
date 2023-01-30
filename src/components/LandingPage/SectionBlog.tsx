@@ -1,6 +1,29 @@
 import Container from "../CommonUI/Container";
 import H2 from "../CommonUI/H2";
 
+const posts = [
+  {
+    title: "QuizZone 2.0 | Season 3",
+    image: "quizzone-2.0-season-3.jpg",
+    likes: 4,
+  },
+  {
+    title: "The Oocca Club | Squawking Party Month 2023",
+    image: "the-oocca-club-squawking-party-month-2023.jpg",
+    likes: 15,
+  },
+  {
+    title: "EVOLVE techno w/ FUNK D'VOID @ SUGARCLUB",
+    image: "evolve-techno-w-funk-d-void-sugarclub.jpg",
+    likes: 8,
+  },
+  {
+    title: "SATURDAYS with THE DOC! | The Musical Doc - LIVE @ TRU Band...",
+    image: "saturdays-with-the-doc-the-musical-doc-live-tru-band.jpg",
+    likes: 43,
+  },
+];
+
 export default function SectionBlog() {
   return (
     <Container className="py-[56px] inset-0 px-[40px] lg:px-[122px]">
